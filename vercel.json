@@ -4,7 +4,7 @@
   "buildCommand": "~/.bun/bin/bun run build",
   "functions": {
     "api/*.ts": {
-      "runtime": "bun-vercel@1.0.0-alpha.5"
+      "runtime": "vercel-bun@0.0.1-alpha.5"
     }
   }
 }
