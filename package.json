@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "bun index.ts",
-    "build": "ls -la && bun build index.ts --compile --outfile=out/test"
+    "build": "ls -la && bun build index.ts --compile --outfile=public/test"
   },
   "devDependencies": {
     "@types/bun": "latest"
