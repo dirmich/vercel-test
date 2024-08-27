@@ -4,10 +4,12 @@
   "type": "module",
   "scripts": {
     "dev": "bun index.ts",
-    "build": "ls -la && bun build index.ts --compile --outfile=public/test"
+    "build": "bun-vercel ./index.ts",
+    "build-old": "ls -la && bun build index.ts --compile --outfile=public/test"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "bun-vercel": "^1.0.0-alpha.5"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
